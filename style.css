@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact{
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.contact-main{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.img{
+    background-image: url(photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+}
+
+.form{
+    width: 48%;
+}
+
+.form h2, p{
+    color: white;
+}
+
+form input:nth-of-type(1){
+    width:100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+form input:nth-of-type(2){
+    width:100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+form textarea{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+form input:nth-of-type(3){
+    padding: 9px 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer-main{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-main h2{
+    margin-bottom: 15px;
+}
+
+.block-1,.block-2,.block-3{
+    width: 30%;
+}
+
+.block-1 .icons{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.icons i{
+    margin-right: 15px;
+    color: green;
+}
+
+.block-2 h2:nth-of-type(2){
+    margin-top: 25px;
+}
+
+.footer-form input:nth-of-type(1){
+    width:100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    color: white;
+}
+
+.footer-form input:nth-of-type(2){
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 15px 0;
+
+}
